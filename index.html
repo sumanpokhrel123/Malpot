@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malpot Office - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <div class="nav-logo">
+            <h2>Malpot Office</h2>
+        </div>
+        <div class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+
+    <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+    </ul>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h5>मालपोत लेखापढी वेबसाइट</h5>
+            <h1><span>मालपोत लेखापढी</span> नागरिकलाई जग्गा-जमिन सम्बन्धी जानकारी</h1>
+            <p>मालपोत लेखापढी वेबसाइट नागरिकलाई जग्गा-जमिन सम्बन्धी जानकारी, लेखापढी विवरण, कर तथा दस्तुर सम्बन्धी सेवा अनलाइन माध्यमबाट सजिलै प्राप्त गर्ने सुविधा प्रदान गर्ने डिजिटल प्लेटफर्म हो। यसमार्फत मालपोत कार्यालयसँग सम्बन्धित कामकाज छिटो, पारदर्शी र सहज ढंगले सम्पन्न गर्न सकिन्छ।"</p>
+            <p><button class="contact-btn"style="background-color:#3498db;;"><a href="tel:9847074045">Contact Us</a></button></p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <div class="section-title">
+        <h3>Quick Highlights</h3>
+    </div>
+    <div class="navitem">
+        <div class="feature">
+            <i class="fas fa-clock"></i>
+            <p>Fast Services</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-check"></i>
+            <p>Reliable</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-user"></i>
+            <p>Experienced</p> 
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <form action="insert.php" method="POST" class="mobile-form">
+        <h3>Contact Us</h3>
+        <div class="form-group">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        </div>
+        <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        </div>
+        <div class="form-group">
+            <label for="contacts">Contact No</label>
+            <input type="text" id="contacts" name="contacts" placeholder="Your contact no" required>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Map Section -->
+    <div class="map-container">
+        <h3>Our Location</h3>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.0742634642647!2d84.12638067534458!3d27.653173976213715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994504ebe101921%3A0x18fba4071300cf28!2sMalpot%20Office%20Kawasoti!5e0!3m2!1sen!2snp!4v1757667409713!5m2!1sen!2snp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="section-title">
+        <h3>Our Team</h3>
+    </div>
+    <div class="team-container">
+        <div class="card">
+            <img src="image/img4.jpg" alt="Netranath Subedi">
+            <h3>Ghanshyam Pokhrel</h3>
+            <p class="title">Malpot Office</p>
+            <p>नवलपरासी बर्दघाट सुस्ता पूर्व</p>
+            <p><button class="contact-btn"><a href="tel:9847053309">Contact</a></button></p>
+        </div>
+        <div class="card">
+            <img src="image/img5.jpg" alt="Ghanshyam Pokhrel">
+            <h3>Netranath Subedi</h3>
+            <p class="title">Malpot Office</p>
+            <p>नवलपरासी बर्दघाट सुस्ता पूर्व</p>
+            <p><button class="contact-btn"><a href="tel:9847074045">Contact</a></button></p>
+        </div>
+    </div>
+
+    <!-- Slideshow -->
+    <div class="section-title">
+        <h3>Gallery</h3>
+    </div>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="image/img7.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="image/image6.png" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="image/img2.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+    <!-- Services Section -->
+    <div class="section-title">
+        <h3>Our Services</h3>
+    </div>
+    <div class="docs">
+        <div class="document">
+            <i class="fas fa-user"></i>
+            <p>Legal Advice</p>
+        </div>
+        <div class="document">
+            <i class="fas fa-file"></i>
+            <p>Land Document Processing</p>
+        </div>
+        <div class="document">
+            <i class="fas fa-warehouse"></i>
+            <p>Rajinama and Dhito Service</p> 
+        </div>
+        <div class="document">
+            <i class="fas fa-bell"></i>
+            <p>Legal Assistance</p> 
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h3>Malpot Office</h3>
+            <p>नवलपरासी बर्दघाट सुस्ता पूर्व</p>
+            <div class="contact-info">
+                <p><a href="tel:9847074045"><i class="fas fa-phone"></i> 9847074045</a></p>
+                <p><a href="officemalpot130@gmail.com"><i class="fas fa-envelope"></i> officemalpot130@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Malpot Office. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation Toggle
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+
+        // Slideshow functionality
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+        }
+
+        // Auto slide change
+        setInterval(function() {
+            plusSlides(1);
+        }, 5000);
+    </script>
+</body>
+</html>
